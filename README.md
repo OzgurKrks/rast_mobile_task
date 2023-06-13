@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Rast Mobile Task React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+demo link : https://rast-mobile-cyan.vercel.app/
 
 ## Available Scripts
 
