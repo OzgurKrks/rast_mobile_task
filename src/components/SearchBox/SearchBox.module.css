@@ -1,0 +1,53 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.searchBox {
+    display: flex;
+  }
+  
+  .search {
+    border-radius: 40px 0 0 40px;
+    padding: 10px 30px;
+    width: 380px;
+    border: none;
+   
+  }
+  
+  
+  .search:focus {
+    outline: none;
+  }
+  
+  .searchButton {
+    background-color: #744bfc;
+    color: #fff;
+    border-radius: 0 40px 40px 0;
+    padding: 10px;
+    width: 30px;
+    display: flex;
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .search {
+      
+      width: 200px;
+     
+     
+    }
+  
+    
+  }
+  @media screen and (max-width: 800px) {
+    .search {
+ 
+      width: 80px;
+     
+     
+    }
+   
+    
+  }

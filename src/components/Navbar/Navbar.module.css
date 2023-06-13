@@ -1,0 +1,124 @@
+.nav {
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+  }
+  
+  .center {
+    width: 70%;
+  }
+  
+  .center ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+   
+    
+  }
+  
+  .center ul a {
+    padding: 0px;
+    border-radius: 5px;
+    color: #000;
+    user-select: none;
+    font-size: 15px;
+  }
+  
+  .right {
+    width: 128px;
+  }
+  
+  .right img {
+    margin: 0 7px;
+  }
+  
+  .menuBtn {
+    display: none;
+    background-color: transparent;
+    border: none;
+    height: 35px;
+    width: 35px;
+    padding: 2px;
+    border-radius: 5px;
+  }
+  
+  .menu {
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px;
+  }
+  
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .menu ul a {
+    padding: 10px 5px;
+    width: 100%;
+    color: #000;
+    user-select: none;
+  }
+  
+  .menuSocial {
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .menuSocial img {
+    margin: 3px 5px;
+  }
+  
+  .center ul *:hover,
+  .menuBtn:hover,
+  .menu ul *:hover {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    border-bottom: 1px solid black;
+   cursor: pointer;
+  }
+  
+  .left *:hover,
+  .right *:hover,
+  .menuSocial *:hover {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .nav {
+      padding: 30px 50px;
+    
+    }
+    .center {
+      width: 80%;
+   
+    }
+    .right {
+      position: absolute;
+      right: 20px;
+      top: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .nav {
+      padding: 30px;
+     
+    }
+    .right,
+    .center {
+      display: none;
+    }
+    .menuBtn {
+      display: flex;
+    }
+    .menu {
+      display: block;
+    }
+  }

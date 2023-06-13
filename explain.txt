@@ -1,0 +1,4 @@
+Proje, istenilen tabloya veri eklemeyi, tablodaki başlıkları sıralayabilmeyi ve verileri arayabilme 
+özelliğini içermektedir. Bu projede, veri yönetimi için Redux Toolkit'i, verileri tabloya eklemek için 
+ise TypeScript interface özelliğini kullandım. Ayrıca tablo, modal, button gibi birçok tasarım için 
+Ant Design (antd) kütüphanesini kullanmış bulunmaktayım.
