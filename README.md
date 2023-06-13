@@ -2,6 +2,11 @@
 
 demo link : https://rast-mobile-cyan.vercel.app/
 
+## Dependecies
+- [antd](https://www.npmjs.com/package/antd) : Ant Design is a React UI library that contains easy-to-use components that are useful for building interactive user interfaces.
+- [reduxjs/toolkit](https://redux-toolkit.js.org/) : Simple. Includes utilities to simplify common use cases like store setup, creating reducers, immutable update logic, and more.
+- [react-redux](https://react-redux.js.org/) : React Redux is the official React binding for Redux. It allows React components to read data from a Redux Store, and dispatch Actions to the Store to update data.
+
 ## Available Scripts
 
 In the project directory, you can run:
